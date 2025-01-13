@@ -33,8 +33,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef LIBBSP_AARCH64_RASPBERRYPI_4_SPI_H
-#define LIBBSP_AARCH64_RASPBERRYPI_4_SPI_H
+#ifndef LIBBSP_AARCH64_RASPBERRYPI_4_I2C_H
+#define LIBBSP_AARCH64_RASPBERRYPI_4_I2C_H
 
 #include <bsp/utility.h>
 #include <bsp/rpi-gpio.h>
@@ -86,4 +86,4 @@ rtems_status_code i2c_recv(raspberrypi_i2c_context *ctx, u8 address, u8 *buffer,
 
 rtems_status_code i2c_send(raspberrypi_i2c_context *ctx, u8 address, u8 *buffer, u32 size);
 
-#endif /* LIBBSP_AARCH64_RASPBERRYPI_4_SPI_H */
+#endif /* LIBBSP_AARCH64_RASPBERRYPI_4_I2C_H */
